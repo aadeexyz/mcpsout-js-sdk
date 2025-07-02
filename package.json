@@ -27,7 +27,6 @@
     "type": "module",
     "dependencies": {
         "cross-fetch": "^4.1.0",
-        "mcpscout": ".",
         "redact-pii-light": "^1.0.0",
         "ulidx": "^2.4.1"
     }

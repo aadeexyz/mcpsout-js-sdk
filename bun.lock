@@ -4,7 +4,6 @@
     "": {
       "name": "lib",
       "dependencies": {
-        "mcpscout": ".",
         "cross-fetch": "^4.1.0",
         "redact-pii-light": "^1.0.0",
         "ulidx": "^2.4.1",
@@ -425,8 +424,6 @@
     "magic-string": ["magic-string@0.30.17", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0" } }, "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA=="],
 
     "math-intrinsics": ["math-intrinsics@1.1.0", "", {}, "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g=="],
-
-    "mcpscout": ["mcpscout@file:", { "dependencies": { "cross-fetch": "^4.1.0", "redact-pii-light": "^1.0.0", "ulidx": "^2.4.1" }, "devDependencies": { "@types/bun": "latest", "typescript": "^5", "unbuild": "^3.5.0" }, "peerDependencies": { "@modelcontextprotocol/sdk": ">=1.0.0" } }],
 
     "mdn-data": ["mdn-data@2.0.30", "", {}, "sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA=="],
 
