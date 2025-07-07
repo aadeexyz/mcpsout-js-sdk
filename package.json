@@ -1,5 +1,24 @@
 {
     "name": "mcpscout",
+    "description": "Drop-in observability for your MCP server. Tracks tool usage, latency, client intent, and failures - all in real time.",
+    "keywords": [
+        "mcp",
+        "server",
+        "modelcontextprotocol",
+        "model-context-protocol",
+        "ai",
+        "observability",
+        "monitoring",
+        "sdk"
+    ],
+    "version": "0.0.1",
+     "license": "MIT",
+     "homepage": "https://mcpscout.dev",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aadeexyz/mcpsout-js-sdk.git"
+    },
+    "type": "module",
     "module": "src/index.ts",
     "exports": {
         ".": {
@@ -27,7 +46,5 @@
     },
     "peerDependencies": {
         "@modelcontextprotocol/sdk": ">=1.0.0"
-    },
-    "private": true,
-    "type": "module"
+    }
 }
