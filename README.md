@@ -43,7 +43,7 @@ bun add mcpscout
 ## ⚡️ Quick Start
 
 > [!IMPORTANT]
-> Make sure you call `scout.track(server)` **after** initializing all your MCP server tools.
+> Make sure you call `scout.track(server)` **after** all your MCP tools are registered, or you’ll miss data.
 
 ```typescript
 import { MCPScout } from "mcpscout";
