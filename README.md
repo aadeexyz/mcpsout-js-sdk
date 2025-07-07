@@ -46,6 +46,8 @@ bun add mcpscout
 > Make sure you call `scout.track(server)` **after** all your MCP tools are registered, or you’ll miss data.
 
 ```typescript
+// import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+// import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { MCPScout } from "mcpscout";
 
 const scout = new MCPScout("your-publishable-key");
