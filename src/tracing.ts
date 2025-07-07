@@ -70,6 +70,8 @@ export function setupToolCallTracing(server: MCPServerLike): void {
                 INTERNAL_INTENT_KEY in req.params.arguments
             ) {
                 event.intent = req.params.arguments[INTERNAL_INTENT_KEY];
+                delete reqRedacted.params.arguments[INTERNAL_INTENT_KEY];
+                event.request = reqRedacted;
             }
 
             try {

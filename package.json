@@ -15,6 +15,11 @@
     "scripts": {
         "build": "unbuild"
     },
+    "dependencies": {
+        "cross-fetch": "^4.1.0",
+        "redact-pii-light": "^1.0.0",
+        "ulidx": "^2.4.1"
+    },
     "devDependencies": {
         "@types/bun": "latest",
         "typescript": "^5",
@@ -24,10 +29,5 @@
         "@modelcontextprotocol/sdk": ">=1.0.0"
     },
     "private": true,
-    "type": "module",
-    "dependencies": {
-        "cross-fetch": "^4.1.0",
-        "redact-pii-light": "^1.0.0",
-        "ulidx": "^2.4.1"
-    }
+    "type": "module"
 }
